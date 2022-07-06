@@ -72,7 +72,7 @@ li{
 .banner > .banner-image {
  width: 100%;
  display: block;
- margin-top: -25%;
+ margin-top: -26%;
 }
 
 .profile-container {
@@ -82,7 +82,7 @@ li{
  /*padding: 50px 350px;*/
   margin:-60px auto 0 auto;
   background-color: rgb(66, 66, 66);
-  width: 1150px;
+  width: 1110px;
   box-shadow: 5px 5px 25px 0 rgba(0, 0, 0, 0.693);
   color: white;
   border-top-left-radius: 50px;
