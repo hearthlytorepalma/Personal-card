@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{ 
+  min-height: 100vh; 
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  text-align: center;
+  background:rgb(43, 43, 43);
+  overflow-x: hidden;
+  
+}
+
+header{ 
+  min-height:20px;
+  background:lightcyan; 
+}
+
+footer{ 
+    text-align: center;
+  min-height: 30px; 
+  color: white;
+
+}
+button{
+
+  margin: 2px 2px;
+  padding: 10px 15px;
+  background:rgb(43, 43, 43);
+  border: 1px solid rgb(133, 133, 133);
+  color: rgb(221, 218, 218);
+  transition: ease-out 0.10s;
+ 
+}
+
+button:hover{
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow:inset 0 0 5px 0 white ;
+  color: white;
+  cursor: pointer;
+}
+i{
+  margin-right: 5px;
+
+}
+
+li{ 
+
+    padding: 5px;
+    list-style-type: none;
+}
+.name{
+  margin-top: 20px;
+}
+
+.banner {
+  /*background-image: url(/images/BG1);*/
+  background-size: cover;  
+  top:0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  margin-bottom: 20px;
+
+}
+
+.banner > .banner-image {
+ width: 100%;
+ display: block;
+ margin-top: -25%;
+}
+
+.profile-container {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 50px;
+  height: 330px;
+ /*padding: 50px 350px;*/
+  margin:-60px auto 0 auto;
+  background-color: rgb(66, 66, 66);
+  width: 1150px;
+  box-shadow: 5px 5px 25px 0 rgba(0, 0, 0, 0.693);
+  color: white;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  
+  
+  
+
+}
+.picture-area{
+overflow: hidden;
+margin-top: -150px;
+
+
+
+}
+
+.profile-details{
+  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  color: whitesmoke;
+  left: 50%;
+  margin-bottom: 10px;
+ 
+
+}
+.profile-image{
+  box-shadow: 0 15px 20px 0 rgb(35, 34, 34);
+  border-radius:50%; 
+  object-fit:cover;
+  position: static;
+
+}
+.location {
+  color: grey;
+  font-size: 15px;
+  margin-top: 6px
+  
+}
+
+.links-container {
+  width: 1050px;
+  padding: 20px 0px;
+  margin: 20px auto 0 auto;
+  display: block;
+  color: white;
+
+}
+
+.div-link{
+  margin-top: 20px;
+  color: white;
+  padding: 45px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: inset 3px 0 0 0 white, 5px 5px 25px 0 rgba(0, 0, 0, 0.693);
+  transition:ease-in-out 0.10s;
+  font-weight: bold;
+  background-color: rgb(66, 66, 66);
+  
+}
+.div-link:hover{
+  padding: 55px;
+  background: rgb(98, 98, 98);
+  font-size: x-large;
+  box-shadow:inset 8px 0 0 0 white, 10px 5px  10px 0 rgb(0, 0, 0);
+  cursor: pointer;
+  margin-left: -25px;
+  margin-right: -25px;
+  
+}
