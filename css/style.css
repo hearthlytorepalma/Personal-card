@@ -23,6 +23,7 @@ footer{
     text-align: center;
   min-height: 30px; 
   color: white;
+  
 
 }
 button{
@@ -96,8 +97,6 @@ li{
 overflow: hidden;
 margin-top: -150px;
 
-
-
 }
 
 .profile-details{
@@ -115,6 +114,8 @@ margin-top: -150px;
   border-radius:50%; 
   object-fit:cover;
   position: static;
+  width:200px;
+  height:200px;
 
 }
 .location {
@@ -153,4 +154,114 @@ margin-top: -150px;
   margin-left: -25px;
   margin-right: -25px;
   
+}
+
+@media only screen and (max-width: 1220px) {
+  body {
+    position: relative;
+  }
+  .container{
+    display: block;
+  }
+  button{
+    font-size: 35px;
+    margin: 4px 4px;
+    padding: 25px 50px;
+    background:rgb(43, 43, 43);
+    border: 3px solid rgb(133, 133, 133);
+    color: rgb(221, 218, 218);
+    transition: ease-out 0.10s;
+  }
+  button:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow:inset 0 0 15px 0 white ;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .banner > .banner-image {
+    width: 100%;
+    display: block;
+    margin-top: 0%;
+   }
+  .profile-container {
+   
+   background-color:rgba(240, 248, 255, 0);    
+   padding-top: auto;
+   margin:-200px auto 0 auto;
+   width: 1110px;
+   box-shadow: 5px 5px 25px 0 rgba(0, 0, 0, 0);
+   color: white;
+   border-top-left-radius: 50px;
+   border-top-right-radius: 50px; 
+  }
+  .profile-container p {
+    font-size: 25px;
+  }
+  .profile-container .location {
+    color: grey;
+    font-size: 22px;
+    margin-top: 6px
+    
+  }
+
+  .profile-image{
+    box-shadow: 0 15px 20px 0 rgb(35, 34, 34);
+    border-radius:50%; 
+    object-fit:cover;
+    position: static;
+    width: 450px;
+    height:450px;
+  }
+  .name{
+    font-size: 50px;
+  }
+
+
+  .profile-details{
+  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+    left: 50%;
+    margin-bottom: 10px;
+    
+  }
+
+  .links-container {
+ 
+    margin-top: 450px;
+    width: 100%;
+    display: hidden;
+    color: white;
+    position:static;
+   
+  }
+
+  .div-link{
+    font-size:  35px;
+  
+    height: 100%;
+    margin-top: 15px;
+    color: white;
+    padding: auto;
+    box-shadow: inset 3px 0 0 0 white, 5px 5px 25px 0 rgba(0, 0, 0, 0.693);
+    transition:ease-in-out 0.10s;
+    font-weight: bold;
+    background-color: rgb(66, 66, 66);
+}
+.div-link:hover{
+  height: 200px;
+  background: rgb(98, 98, 98);
+  font-size: 45px;
+  box-shadow:inset 20px 0 0 0 white, 10px 5px  10px 0 rgb(0, 0, 0);
+  cursor: pointer;
+  padding-top: 80px;
+  margin-left: 0px;
+  margin-right: 0px; 
+}
+.div-link>i{
+  font-size: 50px ;
+}
 }
