@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -56,7 +58,10 @@ li{
     list-style-type: none;
 }
 .name{
-  margin-top: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+
+  margin-top: 5px;
 }
 
 .banner {
@@ -85,14 +90,11 @@ li{
   margin:-60px auto 0 auto;
   background-color: rgb(66, 66, 66);
   width: 1110px;
-  box-shadow: 5px 5px 25px 0 rgba(0, 0, 0, 0.693);
+  box-shadow: 5px 5px 25px 0 rgba(0, 0, 0, 0.15);
   color: white;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  
-  
-  
-
+  border-top-left-radius: 60%;
+  border-bottom-right-radius: 60%;
+ /* border-radius: 60px;*/
 }
 .picture-area{
 overflow: hidden;
@@ -140,7 +142,7 @@ margin-top: -150px;
   color: white;
   padding: 45px;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  box-shadow: inset 3px 0 0 0 white, 5px 5px 25px 0 rgba(0, 0, 0, 0.693);
+  box-shadow: inset 3px 0 0 0 white, 10px 5px 8px 0 rgba(0, 0, 0, 0.15);
   transition:ease-in-out 0.10s;
   font-weight: bold;
   background-color: rgb(66, 66, 66);
@@ -150,7 +152,7 @@ margin-top: -150px;
   padding: 55px;
   background: rgb(98, 98, 98);
   font-size: x-large;
-  box-shadow:inset 8px 0 0 0 white, 10px 5px  10px 0 rgb(0, 0, 0);
+  box-shadow:inset 15px 0 0 0 white, 10px 5px  10px 0 rgb(0, 0, 0);
   cursor: pointer;
   margin-left: -25px;
   margin-right: -25px;
@@ -249,7 +251,7 @@ margin-top: -150px;
     margin-top: 15px;
     color: white;
     padding: auto;
-    box-shadow: inset 3px 0 0 0 white, 5px 5px 25px 0 rgba(0, 0, 0, 0.693);
+    box-shadow: inset 3px 0 0 0 white, 5px 0 10px 0 rgba(0, 0, 0, 0.6);
     transition:ease-in-out 0.10s;
     font-weight: bold;
     background-color: rgb(66, 66, 66);
